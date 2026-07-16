@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cosmic Portfolio
+
+Cosmic Portfolio is a personal portfolio website built around the idea of exploring a solar system instead of scrolling through a traditional webpage. Each planet represents one of my projects, allowing visitors to navigate through my work in an interactive 3D environment.
+
+The goal of this project is to combine modern web technologies with creative design to create a portfolio that is both visually engaging and easy to explore.
+
+## Features
+
+* Interactive 3D solar system
+* Each planet links to a different project
+* Smooth camera transitions and animations
+* Responsive design
+* Modular project data for easy updates
+* Built with modern frontend technologies
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Three.js
+* React Three Fiber
+* Drei
+* GSAP
+* Framer Motion
+
+## Project Structure
+
+The project is designed so that all project information can be managed from a single data file. New projects, descriptions, links, and images can be added without changing the core components.
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/cosmic-portfolio.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000` in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Future Plans
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Some features that are planned for future versions include:
 
-## Learn More
+* Custom planet environments
+* Improved lighting and shaders
+* Project detail pages
+* Background audio
+* Additional visual effects
+* Better mobile interactions
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is available under the MIT License.
