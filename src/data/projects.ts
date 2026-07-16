@@ -68,17 +68,17 @@ export const projects: Project[] = [
   },
   {
     id: "project-4",
-    name: "Project Four",
-    description: "An immersive e-commerce experience with 3D product visualization.",
-    githubLink: "#",
-    demoLink: "#",
+    name: "Space Portfolio",
+    description: "An interactive 3D portfolio featuring a solar system built using Next.js, React Three Fiber, and Tailwind CSS. Projects are represented as planets in a realistic orbit.",
+    githubLink: "https://github.com/AvgNewton03/Space_Portfolio",
+    demoLink: "https://space-portfolio-sand-three.vercel.app/",
     planetColor: "#f97316", // orange
     planetSize: 0.9,
     orbitRadius: 20,
     orbitSpeed: baseEarthSpeed / 1.88, // Mars
     rotationSpeed: 0.018,
-    thumbnail: "/placeholders/project4.jpg",
-    techStack: ["React", "Three.js", "Tailwind"],
+    thumbnail: "/project3.png",
+    techStack: ["Next.js", "React Three Fiber", "Three.js", "Tailwind CSS"],
     isClickable: true,
   },
   {
