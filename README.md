@@ -36,6 +36,3 @@ Visit `http://localhost:3000` to view the project.
 * Optimized performance
 * Dynamic project configuration
 
-## License
-
-MIT
