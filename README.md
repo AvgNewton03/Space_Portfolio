@@ -1,3 +1,9 @@
+
+
+https://github.com/user-attachments/assets/6273281b-fde8-41f0-b572-7e719d4206cf
+
+
+
 # Cosmic Portfolio
 
 An interactive 3D portfolio that turns a collection of projects into a solar system. Each planet represents a GitHub project, allowing visitors to explore my work through a cinematic space-themed experience instead of a traditional portfolio layout.
